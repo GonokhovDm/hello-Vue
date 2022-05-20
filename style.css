@@ -1,0 +1,68 @@
+@import "../css/null.css";
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  background: #40424A;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+  margin: 25px 0;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#header {
+  width: 100%;
+  background: #26282e;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+#header .block {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-display: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  line-height: 50px;
+  color: #ddd;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.form {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
